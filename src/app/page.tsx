@@ -5,13 +5,13 @@ export default function Home() {
   return (
     <>
       <div className="flex flex-col py-10 sm:flex-row lg:flex-row gap-4 font-sans justify-center items-center h-[min-450px] bg-[#333646] text-white ">
-        <div className="w-full md:w-[47%] lg:w-2/4 pl-10 items-center">
+        <div className="w-full md:w-[47%] lg:w-2/4 px-6 lg-pl-10 items-center">
         <h3 className="text-4xl font-semibold text-[#fcb532]">Hi! I am</h3>
         <h1 className="text-5xl font-semibold">Muhammad Umer Khan</h1>
         <p className=" py-4 text-lg ">Hello! I'm Muhammad Umer, a proficient website developer and designer. My commitment to excellence ensures that I deliver premium services and products to my clients, meeting global standards while adhering to tight deadlines.</p>
         <Link href={"/contact"} className="border-2 border-[#fcb532] text-[#fcb532] font-semibold px-8 py-2  float-start">Contact Me</Link>
       </div>
-      <div className="flex py-6  justify-center w-full lg:w-2/4 pl-10 sm:pr-3">
+      <div className="flex py-6  justify-center w-full lg:w-2/4 pl-2 lg-pl-10 sm:pr-3">
         <Image src={"/ban.jpg"} alt="image" width={300} height={200} className="rounded">
         </Image>
       </div>
@@ -50,7 +50,7 @@ export default function Home() {
         <div className="w-2/4 pl-10 items-center justify-center">
         <h3 className="text-3xl font-semibold">Have Any Project On Mind?</h3>
         <p className=" py-4 text-lg ">Let’s turn your ideas into reality! Share your vision, and we’ll bring it to life with creativity and precision.</p>
-        <Link href={"/contact"} className="border-2 border-[#fcb532] text-[#fcb532] font-semibold px-8 py-2  float-start">Contact Me</Link>
+        <Link href={"/contact"} className="border-2 border-[#fcb532] text-[#fcb532] font-semibold px-4 lg:px-8 py-2  float-start">Contact Me</Link>
       </div>
       <div className="flex justify-center w-2/4 pl-10">
         <Image src={"/Image (3).png"} alt="image" width={400} height={400} className="rounded items-center">
