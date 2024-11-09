@@ -8,7 +8,7 @@ export default function Home() {
         <div className="w-full md:w-[47%] lg:w-2/4 px-6 lg-pl-10 items-center">
         <h3 className="text-4xl font-semibold text-[#fcb532]">Hi! I am</h3>
         <h1 className="text-5xl font-semibold">Muhammad Umer Khan</h1>
-        <p className=" py-4 text-lg ">Hello! I'm Muhammad Umer, a proficient website developer and designer. My commitment to excellence ensures that I deliver premium services and products to my clients, meeting global standards while adhering to tight deadlines.</p>
+        <p className=" py-4 text-lg ">A proficient website developer and designer. My commitment to excellence ensures that I deliver premium services and products to my clients, meeting global standards while adhering to tight deadlines.</p>
         <Link href={"/contact"} className="border-2 border-[#fcb532] text-[#fcb532] font-semibold px-8 py-2  float-start">Contact Me</Link>
       </div>
       <div className="flex py-6  justify-center w-full lg:w-2/4 pl-2 lg-pl-10 sm:pr-3">
